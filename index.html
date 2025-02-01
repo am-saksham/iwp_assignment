@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to LoveConnect</h1>
+    <p>Find your perfect match!</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a> | 
+    <a href="#form">Join Now</a> | 
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>LoveConnect is a platform where you can find meaningful connections and meet like-minded individuals. Join us today and start your journey!</p>
+
+        <h3>Features:</h3>
+        <ul>
+            <li>Secure and safe platform</li>
+            <li>Connect with like-minded individuals</li>
+            <li>Personalized matchmaking</li>
+        </ul>
+
+        <h3>Statistics:</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Count</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Members</td>
+                    <td>10,000+</td>
+                </tr>
+                <tr>
+                    <td>Matches Made</td>
+                    <td>8,000+</td>
+                </tr>
+                <tr>
+                    <td>Countries</td>
+                    <td>50+</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Featured Members:</h3>
+        <div class="profile-images">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=2788&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile 1" width="150" height="200">
+            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile 2" width="150" height="200">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2861&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile 3" width="150" height="200">
+            <img src="https://images.unsplash.com/photo-1542206395-9feb3edaa68d?q=80&w=2580&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile 4" width="150" height="200">
+        </div>
+    </section>
+
+    <section id="form">
+        <h2>Join Now</h2>
+        <div class="form-container" style="border: 2px solid black; padding: 20px; width: 60%;" >
+            <form action="mailto:io.sakshamgupta@gmail.com" method="POST" enctype="text/plain">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                <br>
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <br>
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" required>
+                <br>
+                <br>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <label for="interests">Interests:</label>
+                <textarea id="interests" name="interests" rows="4" placeholder="Describe your interests"></textarea>
+                <br>
+                <br>
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*">
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr>
+    <section id="contact" style="display: flex; justify-content: space-between;">
+        <div>
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:io.sakshamgupta@gmail.com">io.sakshamgupta@gmail.com</a></p>
+            <p>Phone: +91 8770119732</p>
+        </div>
+        
+        <div style="padding-right: 20px;">
+            <h3>Follow Us:</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </section>
+     
+    <section id="media">
+        <h2>Promo Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UiLQoCioeTs?si=kCl_lWVdZavxFXe7" frameborder="0"
+            allowfullscreen></iframe>
+        <br>
+        <br>
+        <audio controls>
+            <source src="theme.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+</main>
+<br>
+<br>
+<br><br><br>
+<footer>
+    <p>&copy; 2025 LoveConnect. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
